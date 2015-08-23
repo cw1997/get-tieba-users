@@ -1,8 +1,8 @@
 <?php
 //code by 昌维
-$kw=$_GET['kw'];
-$spn=$_GET['spn'];
-$epn=$_GET['epn'];
+$kw=$_GET['kw'];//这是贴吧
+$spn=$_GET['spn'];//这是起始页数，一般写1
+$epn=$_GET['epn'];//这是结束页数，你自己随便写，一般不要写太长，否则会卡死
 //$kw='bug';$spn=1;$epn=10;
 $p='/<a href="\/home\/main\/\?un=(.+?)&fr=furank" target="_blank"/i';
 //$str=iconv('GB2312', 'UTF-8', $str);
