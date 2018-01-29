@@ -15,6 +15,7 @@ if (!isset($kw) || empty($kw)) {
 	贴吧名字（不要带“吧”字）：<input name="kw" value="<?php echo $kw; ?>" placeholder="贴吧名字"><hr>
 	起始页数（一般为1）：<input name="spn" value="1" placeholder="起始页数"><hr>
 	结束页数（一页20个ID，请自行估算数量）：<input name="epn" value="2" placeholder="结束页数"><hr>
+	<input type="hidden" name="r" value="<?php echo rand().rand().rand(); ?>">
 	<input type="submit">
 </form>
 <?php
